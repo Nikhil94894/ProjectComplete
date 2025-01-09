@@ -3,14 +3,12 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*---------- Navigation part --------------*/
 .navbar {
     display: flex;
     justify-content: space-between;
     border: solid 0px;
     background-color: #f2f2f2;
-
-
 
 }
 
@@ -30,6 +28,8 @@
     margin: 10px;
 
 }
+/*---------- Paragarph middle-- --------------*/
+
 
 .text {
     background-image: url(https://assets.nicepagecdn.com/11a8ddce/3502986/images/pexels-photo-733500.jpg);
@@ -48,9 +48,6 @@
 
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 130px;
-
-
-
 }
 
 .text .one #h3tag {
@@ -63,10 +60,7 @@
 .text .one #h1tag {
     font-size: 2rem;
     margin-top: 12px;
-
-
     width: 450px;
-
 }
 
 .text .one p {
@@ -93,7 +87,7 @@
 .one .btn:hover{
     background-color: #11ce82;
 }
-
+/* ------------Cards part (six cards)----------------*/
 .container-card {
     display: flex;
     flex-wrap: wrap;
@@ -115,8 +109,6 @@
     border-radius: 1px;
     margin: 10px;
   
-
-
 }
 .back-color{
     background-color:white;
@@ -126,22 +118,7 @@
     padding-bottom: 26px;
     padding-top: 35px;
 }
-.Last{
-    box-sizing: border-box;
-   margin: 50px;
-   margin-left: 130px;
-}
-.Last #Last-h1{
-    width: 400px;
-}
- .para{
-    margin: 16px;
-    font-size: 1rem;
-    
-}
-span{
-    color: #f0cccf;
-}
+
  .btn-2{
     font-size:1.4rem ;
     padding: 20px;
@@ -154,23 +131,107 @@ span{
 .btn-2:hover{
     background-color: brown;
 }
-.Artic{
-   width: 1000px;
-   display: flex;
+/* ---Content part ---card ke niche ka paragraph */
+.content-info{
+   
+     display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 80px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+ 
+}
+.content-info1{
+    width: 45%;
+    border: 2px solid white;
+    background-color:white;
+    line-height: 40px;
+    padding: 30px;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+.content-info .content-info1{
+    font-size: 1.2rem;
+}
 
-
-
+.content-info2 #content-info2{
+    margin-top: 50px;
+    font-weight:900;
 
 }
-.Article{
-    margin-left: 30px;
-    border: 0px solid;
-    color: #ffffff;
-background-color: #ff6008;
+
+.content-info2{
+    background-color: #ec5e1c;
+    color: aliceblue;
+    font-size: 20px;
     padding: 20px;
-
-    
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin-top: 40px;
 }
-.Article .last-paragraph{
-    margin-top: 30px;
+/* back ground image girl with laptop 1 */
+#info1-poster{
+    background-image: url('https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/29fd0360109159e1970d573a/woman-sitting-sofa-with-laptop-legs.jpg');
+    background-size:cover;
+    background-position: center;
+    background-position: top;
+    height: 300px;
+    margin-top: 20px;
+  
+}
+/* back ground image girl with laptop 2*/
+#info2-poster{
+    background-image: url('	https://assets.nicepagecdn.com/11a8ddce/3502986/images/lovely-woman-using-laptop-office.jpg');
+     background-size:cover;
+     background-position: center;
+     background-position: top;
+     height: 300px;
+     margin-top: 50px;
+}
+
+  #btn-3{
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:palevioletred ;
+    color: white;
+    border: 0px solid;
+    
+ }
+ #btn-3:hover{
+    background-color: brown;
+ }
+ /*------ form section-------- */
+ form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 6px;
+  width: 300px;  
+  border: 1px solid;
+  border-radius: 20px;
+  margin-left: 200px;
+  background-color: #28d862;
+  font-size: 1.2em;
+  color: #2d6eae;
+}
+#form-h1{
+    color: #ce4711;
+    margin-left: 330px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 1.7rem;
+}
+form #btn-4{
+    border-radius: 16px;
+    width: 90px;
+    padding: 8px;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: black;
+    color: rgb(29, 221, 29);
 }
