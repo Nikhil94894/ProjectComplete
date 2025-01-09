@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: solid 0px;
+    background-color: #f2f2f2;
+
+
+
+}
+
+.navbar ul {
+    display: flex;
+    gap: 80px;
+    padding: 20px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar .logo {
+    margin: 10px;
+
+}
+
+.text {
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/3502986/images/pexels-photo-733500.jpg);
+    background-size: cover;
+
+    background-position: center;
+    background-position: top;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.text .one {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+
+
+
+}
+
+.text .one #h3tag {
+    margin-top: 130px;
+    font-size: 1.5rem;
+    color: rgb(168, 163, 163);
+
+}
+
+.text .one #h1tag {
+    font-size: 2rem;
+    margin-top: 12px;
+
+
+    width: 450px;
+
+}
+
+.text .one p {
+
+    margin-top: 18px;
+    width: 400px;
+    color: rgb(44, 43, 43);
+    font-size: 1.3rem;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.text .one .btn {
+    font-size: 1.6rem;
+    border-radius: 15px;
+    border: 0px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 17px;
+    background-color: rgb(235, 80, 8);
+    color: white;
+}
+.one .btn:hover{
+    background-color: #11ce82;
+}
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+    background-color: #f0cccf;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+
+.container-card .card1 {
+    width: 340px;
+    border: 0px solid;
+    text-align: center;
+    height: 30vh;
+    padding-top: 50px;
+    border-radius: 1px;
+    margin: 10px;
+  
+
+
+}
+.back-color{
+    background-color:white;
+
+}
+.card1 .year{
+    padding-bottom: 26px;
+    padding-top: 35px;
+}
+.Last{
+    box-sizing: border-box;
+   margin: 50px;
+   margin-left: 130px;
+}
+.Last #Last-h1{
+    width: 400px;
+}
+ .para{
+    margin: 16px;
+    font-size: 1rem;
+    
+}
+span{
+    color: #f0cccf;
+}
+ .btn-2{
+    font-size:1.4rem ;
+    padding: 20px;
+    border-radius: 50px;
+    border: 0px;
+    width: 170px;
+    background-color: #f0cccf ;
+    color: white;
+}
+.btn-2:hover{
+    background-color: brown;
+}
+.Artic{
+   width: 1000px;
+   display: flex;
+
+
+
+
+}
+.Article{
+    margin-left: 30px;
+    border: 0px solid;
+    color: #ffffff;
+background-color: #ff6008;
+    padding: 20px;
+
+    
+}
+.Article .last-paragraph{
+    margin-top: 30px;
+}

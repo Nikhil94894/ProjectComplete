@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel ="stylesheet" href="css1.css">
+    
+</head>
+
+<body>
+    <!-----------------------Navigation part-------------------------->
+    <nav class=" navbar">
+        <div class="logo">
+            <img src="https://csite.nicepage.com/Images/logo-w.png" alt="img">
+
+
+        </div>
+        <ul>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+        </ul>
+
+    </nav>
+    <!--Paragarph middle-->
+    <section class="text">
+        <div class="one">
+
+            <h3 id="h3tag">Add more speed to your website</h3>
+            <h1 id="h1tag">Your success in the industry is our mission</h1>
+            <p>Actually, this is quite simple to achieve – because each time we help them in sorting out different
+                accounting intricacies or save the day before filing the taxes, they are happy indeed</p>
+            <button class="btn">Read more</button>
+        </div>
+
+    </section>
+
+    <!---------------------------Cards part---------------------------------------------------->
+
+    <section class="container-card">
+       
+        <div class="card1  back-color">
+            <h1 class="year">2018</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+
+        <div class="card1  back-color ">
+            <h1 class="year">2019</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+
+        <div class="card1 back-color">
+            <h1 class="year">2020</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+        <div class="card1 back-color">
+            <h1 class="year">2021</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+        <div class="card1 back-color">
+            <h1 class="year">2022</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+        <div class="card1 back-color">
+            <h1 class="year">2023</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+    
+    </section>
+    <!--Last card ke Niche-->
+
+    <section class="Last Artic">
+        <div class="Last-text">
+            <h2 id="Last-h1">Explore national parks with digital tours, ranger programs, 
+                educational opportunities, and more.</h2>
+            <p class="para">Lorem ipsum dolor sit amet, consectetur</p>
+           <p class="para"> Elit, sed do eiusmod tempor incididun </p>
+           <p class="para"> Image From <span>Freepik</span></p>
+
+           <button class="btn-2">
+            Book Now
+           </button>
+        </div>
+
+
+
+
+
+    
+
+    <!--Article orange color left side-->
+    <section class="Article">
+        
+            <P>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing.</P>
+
+            <h3 class="last-paragraph">Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In surprise concerns informed betrayed he learning is ye.</h3>
+
+       
+
+    </section>
+</section>
+
+    
+
+
+
+
+</body>
+
+</html>
